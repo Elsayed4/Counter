@@ -14,11 +14,15 @@ const App = () => {
     setcount(count + 1) 
   }
   
-
+const [color,setColor] = useState('white');
 
   return (
     <div className="App">
-          <Counter count={count} increment={increment} decrement={decrement}></Counter>
+          <Counter count={count} 
+          increment={increment}
+           decrement={decrement}
+           color={color}
+           ></Counter>
     </div>
   );
 }

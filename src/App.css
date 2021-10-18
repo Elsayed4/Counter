@@ -22,3 +22,9 @@ body{
   color: teal;
   cursor: pointer;
 }
+
+.Counter .txtStatus{
+ color: #fff;
+ text-align: center;
+ font-size: large;
+}
