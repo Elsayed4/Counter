@@ -28,3 +28,10 @@ body{
  text-align: center;
  font-size: large;
 }
+
+.red{
+  color: red;
+}
+.white{
+  color: white;
+}
